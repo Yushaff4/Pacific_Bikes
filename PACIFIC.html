@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head> <h1>  <title> COREX  </title> </h1> 
+
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+<body > <hr>
+	<script src="Pacific.js"></script>
+		<!--Let's do Something Meaningful -->
+	<center align> <h1> <p> Its Just The Beginnig </p> </h1>
+	<h2> <p> Its Just The Beginnig </p> </h2>
+	<h3> <p> Its Just The Beginnig </p> </h3>
+	<h4> <p> Its Just The Beginnig </p> </h4>
+	<h5> <p> Its Just The Beginnig </p> </h5>
+	<h6> <p> Its Just The Beginnig </p> </h6> </center align> <hr>
+
+
+
+
+ <!--These Are Links-->	
+	<a href = "https://chat.deepseek.com" target =_self title = "Just incase you want help"> <button style="background-color: rgb(0,0,0);color:aqua;border-radius:10px;"> ASK </button> </a>
+
+ <hr>
+
+	
+ <!-- Image -->
+	<h2> Images</h2>
+	<img src = "Y:Desktop\CORE\BIKES\1.jpg" height = "250" width = "250" alt = "This is a Bike Pic"> 
+	<img src = "Y:Desktop\CORE\BIKES\3.jpg" height = "250" width = "250" alt = "This is a Bike Pic">
+	<img src = "Y:Desktop\CORE\BIKES\7.jpg" height = "250" width = "250" alt = "This is a Bike Pic">
+
+ <hr>
+
+ <!--Audio-->
+	<h2> Audio</h2>
+	<audio controls  muted loop src = "Y:Desktop\CORE\Music\Joshua Baraka - Wrong Places.mp3"  alt = "This is a Song"> </audio>
+
+ <hr>
+ 
+
+    
+ <!-- Video -->
+    <h2>Video</h2>
+    <video controls  loop muted width="200" >
+        <source src = "Y:Desktop\CORE\Video\Bike 1.mp4" type="video/mp4">  </video>
+    <video controls loop muted width = "200">
+	<source src = "Y:Desktop\CORE\Video\Bike 2.mp4" type="video/mp4"> </video>
+    <video controls loop muted width = "200">
+	<source src = "Y:Desktop\CORE\Video\Bike 3.mp4" type="video/mp4"> </video> 
+    <video controls loop muted width = "200">
+	<source src = "Y:Desktop\CORE\Video\Bike 4.mp4" type="video/mp4"> </video>
+    <video controls loop muted width = "200">
+	<source src = "Y:Desktop\CORE\Video\Bike 5.mp4" type="video/mp4"> </video>
+ <hr>
+
+ <!--Tables-->
+	<h2> Table </h2>
+	<table border=2 cellpadding=5 cellspacing=0 width=200>
+	<tr bgcolor="red"><td>1<td>KAWASAKI<td>DUCATI</tr>
+	<tr bgcolor="green"><td>2<td>NINJA<td>BMW</tr>
+	<tr bgcolor="skyblue"><td>3<td>SUZUKI<td>APRILIA </tr>
+	</table> <hr>
+
+ <!--HTML text formatting-->
+	<h2> Text </h2>
+ <center align><p> Its Just  <b> Bold</b> Text </p>
+	<h3> <p> Its Just  <i> Italic </i> Text</p>
+	<p> Its Just  <big> Big </big> Text</p>
+	<p> Its Just <small> Small </small> Text </p>
+	<p> Its Just <sub> Subscript </sub> Text </p>
+	<p> Its Just <sup> Superscript </sup> Text </p>
+	<p> Its Just  <ins> Inserted </ins> Text </p>
+	<p> Its Just  <del> Deleted </del>Text </p>
+	<p> Its Just  <mark> Marked </mark> Text </p> </h3> </center align> <hr>
+
+ <!--Lists-->
+ <h2>Lists</h2>
+	<h4> Unordered list </h4>
+	<ul> <li>Ducati<ul><b><sup>1</sup>Cool</b></ul></li> <li>Kawasaki</li> <li>Ninja</li> <li>Suzuki</li> <li>Aprilia</li> <li>BMW</li> </ul>
+
+	<h4> Ordered List <h4>
+	<ol type = "A"> <li>Ducati</li> <li>Kawasaki</li> <li>Ninja</li> <li>Suzuki</li> <li>Aprilia</li> <li>BMW</li> </ol>
+
+	<h4> Description <h4>
+	<dl> <dt>F1<dt>
+	<dd>The most expensive sport is F1.</dd> </dl>
+
+ <hr>
+
+	<!--Buttons-->
+	<h2>Buttons</h2>
+	<button onclick="doSomething()" style="background-color=skyblue;color:#00ff00;border-radius:5px"> Click Me
+	</button>
+	<p id="test">Hello World!</p>
+	<script>
+		function doSomething(){
+			document.getElementById("test").innerHTML ="This is The Bike Clue!"
+		}
+	</script> <hr>
+
+	<!--Forms-->
+	<h2>Form 1</h2>
+	<form ">
+		<div>
+		 <label for="fname">First Name</label>
+		 <input type="text" id="fname" name="fname" placeholder="Ducati" required>
+		</div> 
+     <br>
+		<div>
+		 <label for="lname">Last Name</label>
+		 <input type="text" id="lname" name="lname" placeholder="Kawasaki" required> 
+		</div>
+		<br>
+		<div>
+		 <label for="pass">Password</label>
+		 <input type="pass" id="pass" name="pass" placeholder="@Bike"  minlength="5" maxlength="14" required> 
+		</div>
+		<br>
+		<div>
+		 <label for="email">Email Address</label>
+		 <input type="email" id="email" name="email" placeholder="core@bike.com" required> 
+		</div>
+		<br>
+		<div>
+		 <label for="phone">Phone</label>
+		 <input type="phone" id="phone" name="phone" placeholder="(+256)740226233" maxlength="13" required> 
+		</div>
+		<br>
+		<div>
+		 <label for="bdate">Birth Date</label>
+		 <input type="bdate" id="bdate" name="bdate" placeholder="dd/mm/yyyy" required> 
+		</div>
+		<div>
+		 <label for="NIN">NIN</label>
+		 <input type="text" id="NIN" name="NIN" placeholder="nin number" minlength="0" maxlength="13" required> 
+		</div>
+		<br>
+		<div>
+			<label for="gender">Gender:  </label>
+		 <label>Male</label>
+		 <input type="radio" name="gender"> 
+		
+	
+		 <label>Female</label>
+		 <input type="radio" name="gender"> 
+		</div>
+		<div>
+			<label>Title:</label>
+		 <label for="Mr.">Mr.</label>
+		 <input type="radio" id="Mr." name="title" value="Mr."> 
+		
+		 <label for="Mrs.">Mrs.</label>
+		 <input type="radio" id="Mrs." name="title" value="Mrs."> 
+		
+		 <label for="PhD">PhD</label>
+		 <input type="radio" id="PhD" name="title" value="PhD"> 
+		</div>
+		<div>
+		 <label for="Quantity">Quantity</label>
+		 <input type="number" id="Quantity" name="Quantity" min="0" max="99" value="1"> 
+		</div>
+		<div>
+		 <label for="Payment">Payment</label>
+		 <select id="Payment" name="Payment">
+			<option value="Visa">Visa</option>
+			<option value="Mastercard">Mastercard</option>
+			<option value="Giftcard">Giftcard</option>
+			<option value="Phone">Phone</option>
+		 </select> 
+		</div>
+		<div>
+		 <label for="Subscribe">Subscribe</label>
+		 <input type="checkbox" id="Subscribe" name="Subscribe"> 
+		</div>
+		
+     <br>
+
+     <div>
+		<input type="reset">
+
+	 </div>
+     <br>
+	 <div>
+		<input type="submit">
+	 </div>
+
+
+	</form> <hr>
+
+
+	<h2>Form 2</h2>
+
+	
+
+
+
+</body>
+
+
+
+</html>
